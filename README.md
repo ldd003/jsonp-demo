@@ -22,4 +22,4 @@ jp(url,opts,fn)
   * name(String)--自定义回调函数名字
   * timeout(Number)--超时 默认60000
 
-* fn(callback)
+* fn(Function)--callback(err,data)
