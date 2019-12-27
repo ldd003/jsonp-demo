@@ -1,6 +1,6 @@
 {
   "name": "jsonp-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "jsonp的小实现",
   "main": "index.js",
   "scripts": {
