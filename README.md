@@ -11,8 +11,8 @@ npm install jsonp-demo
 ### API
 
 ```javascript
-const jp = require('jsonp-demo')
-jp(url,opts,fn)
+import jsonp from 'jsonp-demo'
+jsonp(url,opts,fn)
 ```
 
 * url(String)
