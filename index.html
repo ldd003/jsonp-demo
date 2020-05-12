@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./dist/main.js"></script>
+  </head>
+  <body>
+    <script>
+      // test
+      console.log(jsonpdemo);
+      jsonpdemo("https://suggest.taobao.com/sug?code=utf-8&q=水果", function (
+        status,
+        data
+      ) {
+        console.log(status, data);
+      });
+    </script>
+  </body>
+</html>

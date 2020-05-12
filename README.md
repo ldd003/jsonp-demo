@@ -1,6 +1,6 @@
 ## jsonp-demo
 
-jsonp的小实现
+a jsonp library
 
 ### Installation
 
@@ -11,15 +11,16 @@ npm install jsonp-demo
 ### API
 
 ```javascript
-import jsonp from 'jsonp-demo'
-jsonp(url,opts,fn)
+import jsonp from "jsonp-demo";
+jsonp(url, opts, fn);
 ```
 
-* url(String)
-* opts(Object)
-  * param--参数 默认'callback'
-  * prefix(String)--回调函数名字前缀 默认'jp'
-  * name(String)--自定义回调函数名字
-  * timeout(Number)--超时 默认60000
+- url(String)
+- opts(Object)
 
-* fn(Function)--callback(err,data)
+  - param--参数 默认'callback'
+  - prefix(String)--回调函数名字前缀 默认'jp'
+  - name(String)--自定义回调函数名字
+  - timeout(Number)--超时 默认 60000
+
+- fn(Function)--callback(err,data)

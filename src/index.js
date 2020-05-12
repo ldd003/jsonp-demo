@@ -27,7 +27,7 @@ function jp(url, opts, cb) {
   // clean ->script callback timer
   function clean() {
     if (script) document.body.removeChild(script);
-    window[name] = function() {};
+    window[name] = function () {};
     if (timer) clearTimeout(timer);
   }
 
@@ -38,7 +38,7 @@ function jp(url, opts, cb) {
   }, timeout);
 
   // callback
-  window[name] = function(data) {
+  window[name] = function (data) {
     clean();
     if (cb) cb(null, data);
   };
